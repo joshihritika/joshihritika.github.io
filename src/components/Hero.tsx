@@ -5,7 +5,7 @@ export const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8">
             <h2 className="text-3xl md:text-5xl font-light text-stone-800 mb-6">
-              <span className="block">Social Work Generalist</span>
+              <span className="block">Sustainability & Social Impact Researcher</span>
               <span className="block mt-2 text-[#4A6741]">Hritika Joshi</span>
             </h2>
             <p className="text-lg md:text-xl text-stone-600 mb-8 leading-relaxed">
