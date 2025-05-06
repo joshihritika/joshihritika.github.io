@@ -1,4 +1,6 @@
 import React from 'react';
+import { FileDownIcon } from 'lucide-react';
+
 export const About = () => {
   return <section id="about" className="py-16 bg-stone-100">
       <div className="container mx-auto px-4">
@@ -7,6 +9,9 @@ export const About = () => {
             About Me
           </h2>
           <div className="prose prose-stone lg:prose-lg max-w-none">
+            <p className="font-medium text-stone-800">
+              Dedicated social researcher and non-profit professional with expertise in qualitative research, survey design, and grant writing.
+            </p>
             <p>
               I'm a research professional specializing in social inclusion, gender equality, and evidence-based policy development. With a focus on international development, I collaborate with leading organizations to drive sustainable and equitable change in diverse contexts.
             </p>
@@ -16,6 +21,20 @@ export const About = () => {
             <p>
               Through my work with organizations including the Asian Development Bank, UNICEF, and Save the Children, I've developed a multidisciplinary perspective that bridges theory and practice. I'm passionate about translating research findings into actionable recommendations that create meaningful impact for communities.
             </p>
+            
+            {/* Resume download button */}
+            <div className="mt-6">
+              <a 
+                href="/assets/pdf/Hritika_Joshi_Resume.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 bg-red-700 hover:bg-red-800 text-white rounded-md transition-colors duration-300"
+              >
+                <FileDownIcon size={18} className="mr-2" />
+                Download Resume
+              </a>
+            </div>
+            
             <div className="mt-8 flex flex-col sm:flex-row sm:items-center">
               <div className="text-lg font-medium text-stone-800 sm:mr-4">
                 My Approach:
