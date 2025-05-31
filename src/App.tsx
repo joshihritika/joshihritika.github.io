@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
-import { HomePage, ProjectsPage, NotFoundPage, LamjungMapPage } from './pages';
+import { HomePage, ProjectsPage, NotFoundPage, UncertaintyAtlasPage } from './pages';
 
 // Component to handle GitHub Pages SPA redirect
 const GitHubPagesSPARedirectHandler = () => {
@@ -38,7 +38,7 @@ export function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/lamjung" element={<LamjungMapPage />} />
+        <Route path="/uncertainty-atlas" element={<UncertaintyAtlasPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Router>

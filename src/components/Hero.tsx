@@ -18,7 +18,7 @@ export const Hero = () => {
               <a href="#contact" className="px-6 py-3 bg-[#4A6741] hover:bg-[#3A5331] text-white rounded-md transition-colors duration-300">
                 Get in Touch
               </a>
-              <a href="#projects" className="px-6 py-3 border border-[#2A4747] text-[#2A4747] hover:bg-[#2A4747] hover:text-white rounded-md transition-colors duration-300">
+              <a href="/projects" className="px-6 py-3 border border-[#2A4747] text-[#2A4747] hover:bg-[#2A4747] hover:text-white rounded-md transition-colors duration-300">
                 View Projects
               </a>
             </div>

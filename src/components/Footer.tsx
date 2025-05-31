@@ -13,7 +13,7 @@ export const Footer = () => {
     href: '#skills'
   }, {
     name: 'Projects',
-    href: '#projects'
+    href: '/projects'
   }, {
     name: 'Contact',
     href: '#contact'
