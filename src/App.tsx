@@ -39,6 +39,7 @@ export function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/uncertainty-atlas" element={<UncertaintyAtlasPage />} />
+        <Route path="/sdgs" element={<SDGsPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Router>
