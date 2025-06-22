@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
-import { HomePage, ProjectsPage, NotFoundPage, UncertaintyAtlasPage } from './pages';
+import { HomePage, ProjectsPage, NotFoundPage, UncertaintyAtlasPage, SDGsPage } from './pages';
 
 // Component to handle GitHub Pages SPA redirect
 const GitHubPagesSPARedirectHandler = () => {
