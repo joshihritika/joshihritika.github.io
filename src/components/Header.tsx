@@ -55,7 +55,7 @@ export const Header = () => {
     { label: 'About', path: '#about' },
     { label: 'Skills', path: '#skills' },
     { label: 'Projects', path: '/projects' },
-    { label: 'Resume', path: '/assets/pdf/Hritika_Joshi_Resume.pdf', icon: <FileTextIcon size={16} className="ml-1" /> },
+    { label: 'Resume', path: '/assets/pdf/CV.pdf', icon: <FileTextIcon size={16} className="ml-1" /> },
     { label: 'Contact', path: '#contact' }
   ];
   
