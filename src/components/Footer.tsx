@@ -104,7 +104,7 @@ export const Footer = () => {
               <li className="flex items-start text-stone-400">
                 <MailIcon size={20} className="mr-2 mt-1 text-red-700" />
                 <div>
-                  hritikajosh7i@gmail.com
+                  hritikajosh7@gmail.com
                 </div>
               </li>
             </ul>

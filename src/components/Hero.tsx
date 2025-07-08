@@ -26,7 +26,7 @@ export const Hero = () => {
           <div className="w-full md:w-1/2 relative">
             <div className="aspect-square max-w-md mx-auto relative">
               <div className="absolute inset-0 bg-[#2A4747]/10 rounded-3xl transform rotate-6"></div>
-              <img src="https://media.licdn.com/dms/image/v2/D4D03AQHewQ2YPWyovw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1683730525816?e=1751500800&v=beta&t=-PZxguB55LztBec7b6g-fc8MURNGL9Heq4CqN89HqQo" alt="Professional headshot of Hritika Joshi" className="rounded-3xl object-cover w-full h-full relative z-10 shadow-lg" />
+              <img src="https://media.licdn.com/dms/image/v2/D4D03AQHewQ2YPWyovw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1683730525816?e=1757548800&v=beta&t=npviE8v3COEgmP-LM9BVcJDSDTDFTn3kXEQ4AFZOddk" alt="Professional headshot of Hritika Joshi" className="rounded-3xl object-cover w-full h-full relative z-10 shadow-lg" />
             </div>
           </div>
         </div>
