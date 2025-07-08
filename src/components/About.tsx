@@ -25,7 +25,7 @@ export const About = () => {
             {/* Resume download button */}
             <div className="mt-6">
               <a 
-                href="/assets/pdf/Hritika_Joshi_Resume.pdf" 
+                href="/assets/pdf/CV.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 bg-red-700 hover:bg-red-800 text-white rounded-md transition-colors duration-300"
