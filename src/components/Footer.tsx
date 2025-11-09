@@ -98,7 +98,7 @@ export const Footer = () => {
               <li className="flex items-start text-stone-400">
                 <PhoneIcon size={20} className="mr-2 mt-1 text-red-700" />
                 <div>
-                  +977 976 641 9640
+                  +47 9725 0086
                 </div>
               </li>
               <li className="flex items-start text-stone-400">
