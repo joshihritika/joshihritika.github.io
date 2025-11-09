@@ -22,7 +22,7 @@ export const Contact = () => {
                 <PhoneIcon size={24} className="text-red-700" />
               </div>
               <h3 className="text-lg font-medium text-stone-800 mb-2">Phone</h3>
-              <p className="text-stone-600 text-center"> +977 976 641 9640</p>
+              <p className="text-stone-600 text-center"> +47 9725 0086</p>
             </div>
             <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-sm border border-stone-100">
               <div className="w-12 h-12 bg-red-700/10 rounded-full flex items-center justify-center mb-4">
